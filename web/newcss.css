@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-10-14, 3:39:45
+    Author     : ameliapond
+*/
+
+header nav{
+    float:right;
+    list-style-type: none;
+}
+header nav ul li{
+    display:inline;
+}
+header h1{
+    display:center;
+}

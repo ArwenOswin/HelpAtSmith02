@@ -12,9 +12,42 @@ header nav{
     float:right;
     list-style-type: none;
 }
+
 header nav ul li{
     display:inline;
 }
+
 header h1{
     display:center;
+}
+
+#navtable{
+	display: table;
+}
+
+#navrow1, #navrow2{
+	display: table-row;
+}
+
+#errands, #lostfound, #specialists, #study{
+	display: table-cell;
+	border: 1px solid #333;
+}
+
+#errandstb, #lostfoundtb, #specialiststb, #studytb{
+	display: table;
+
+}
+
+#errandsrow, #lostfoundrow, #specialistsrow, #studyrow{
+	display: table-row;
+	width: 50%;
+}
+
+#errandspost, #lostfoundpost, #specialistspost, #studypost, #errandsview, #lostfoundview, #specialistsview, #studyview{
+	display: table-cell;
+}
+
+#navtable h2{
+	text-align: center;
 }

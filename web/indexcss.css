@@ -9,43 +9,53 @@ and open the template in the editor.
 */
 
 header nav{
-    float:right;
+    float: right;
     list-style-type: none;
 }
 
 header nav ul li{
-    display:inline;
+    display: inline;
+    padding: 5px;
 }
 
 header h1{
-    display:center;
+    display: center;
 }
 
 #navtable{
 	display: table;
+	margin: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #navrow1, #navrow2{
 	display: table-row;
+	background-color: orange;
 }
 
 #errands, #lostfound, #specialists, #study{
 	display: table-cell;
 	border: 1px solid #333;
+	width: 50%;
 }
 
 #errandstb, #lostfoundtb, #specialiststb, #studytb{
 	display: table;
+	background-color: #c0c0fe;
 
 }
 
 #errandsrow, #lostfoundrow, #specialistsrow, #studyrow{
 	display: table-row;
-	width: 50%;
+	
 }
 
 #errandspost, #lostfoundpost, #specialistspost, #studypost, #errandsview, #lostfoundview, #specialistsview, #studyview{
 	display: table-cell;
+	width: 50%;
+	padding: 10px;
+	
 }
 
 #navtable h2{

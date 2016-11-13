@@ -6,8 +6,8 @@ and open the template in the editor.
 -->
 <html>
     <head>
-	<link type="text/css" rel="stylesheet" href="newcss.css">
-        <title>TODO supply a title</title>
+	<link type="text/css" rel="stylesheet" href="indexcss.css">
+        <title>Help @Smith</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -15,14 +15,73 @@ and open the template in the editor.
         <header>
             <nav>
                 <ul>
-                    <li>Home</li>
+                    <li><a href="index.html">Home</a></li>
                     <li>About us</li>
+                    <li>My Account</li>
+                    <li>Task List</li>
                     <li>Log In</li>
                 </ul>
             </nav>
-            <h1>Help At Smith</h1>
+            <h1>Help @Smith</h1>
         </header>
-        <div>
+        <div id="navtable">
+        	<div id="navrow1">
+        		<div id="errands">
+        			<h2>Small Errands</h2>
+        			<div id="errandstb">
+	        			<div id="errandsrow">
+	        				<div id="errandspost">
+	        					<h3>Need something done? Post it here:</h3>
+	        				</div>
+	        				<div id="errandsview">
+	        					<h3>Wanna help? View a list of errands posted here:</h3>
+	        				</div>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div id="lostfound">
+        			<h2>Lost &amp; Found</h2>
+        			<div id="lostfoundtb">
+        				<div id="lostfoundrow">
+	        				<div id="lostfoundpost">
+	        					<h3>Lost something? Commence a search for it:</h3>
+	        				</div>
+	        				<div id="lostfoundview">
+	        					<h3>Found something? Find its owner here:</h3>
+	        				</div>
+	        			</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div id="navrow2">
+        		<div id="specialists">
+        			<h2>Specialists</h2>
+        			<div id="specialiststb">
+        				<div id="specialistsrow">
+	        				<div id="specialistspost">
+	        					<h3>Need a specialist? Post your task here:</h3>
+	        				</div>
+	        				<div id="specialistsview">
+	        					<h3>Specialized in something? Find your task here:</h3>
+	        				</div>
+	        			</div>
+        			</div>
+        		</div>
+        		<div id="study">
+        			<h2>Help with Study</h2>
+        			<div id="studytb">
+        				<div id="studyrow">
+	        				<div id="studypost">
+	        					<h3>Want some help with study? Find a buddy here:</h3>
+	        				</div>
+	        				<div id="studyview">
+	        					<h3>Want to help someone with their study? View a list here:</h3>
+	        				</div>
+	        			</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
             <form action="tasklist.html">
                 <input type="submit" value="See the tasks posted" />
             </form>
